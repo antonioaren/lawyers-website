@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+body {}
+
+h1 {}
+
+h2 {
+    /* color: white; */
+}
+
+p {
+    /* color: white; */
+}
+
+.main--background {
+    background-image: url(../res-em-abogados/FONDO\ 2.jpg);
+    background-position-x: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa--opaca {
+    background-color: white;
+    opacity: 0.93;
+}
+
+
+/* Reglas de ajustes de la web. Para verla correctamente */
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(1em, 1fr) minmax(0, 80rem) minmax(1em, 1fr);
+}
+
+.grid--fullview {
+    grid-column: 1/4;
+}
+
+.grid--content {
+    grid-column: 2/3;
+}
+
+
+/* Estilos de las pagina completa */
+
+
+/* Header */
+
+.logo--index {
+    margin-top: 15%;
+    height: 700px;
+    text-align: center;
+}
+
+.logo--index>img {
+    max-width: 40%;
+}
+
+
+/* Seccion del navegador */
+
+.subgrid--nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+}
+
+.section--background {
+    background-color: #770431;
+}
+
+
+/* Seccion quienes somos */
+
+.seccion--titulo {
+    text-align: center;
+    padding: 50px;
+}
+
+.subgrid--quienes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    text-justify: distribute-all-lines;
+}
+
+
+/* Seccion contactanos */
+
+.contacto--info {
+    text-align: center;
+}
+
+.contacto--info>img {
+    max-width: 40%;
+}

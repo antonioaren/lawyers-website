@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Asesoramiento civil y familiar - B&amp;M</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Asesoramiento civil y familiar" />
+    <meta name="keywords" content="" />
+</head>
+
+<body>
+    <div id="container">
+        <!-- <header>
+      <img src="img/Fondo.jpg" alt="logo" />
+    </header> -->
+        <!-- <div class="logo"></div> -->
+        <nav class="navbar-otros">
+            <a href="index.html"><img src="img/Fondo.jpg" alt="logo" height="150" width="150" /></a>
+            <table style="margin: 0 auto;" cellpadding="0" style="aling-text= center">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="menu_izda">
+                                <button onclick="myFunction()" class="dropbtn">Asesoramiento Juridico</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="civil.html">Civil y familiar</a>
+                                    <a href="">Penal</a>
+                                    <a href="">Laboral</a>
+                                    <a href="">Administrativo</a>
+                                    <a href="">Mercantil</a>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <br><br><br>
+
+                            <div class="menu_dcha">
+                                <button onclick="myFunction2()" class="dropbtn">Mediaciones</button>
+                                <div id="myDropdown2" class="dropdown-content">
+                                    <a href="">Familiar</a>
+                                    <a href="">Civil</a>
+                                    <a href="">Mercantil</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <!-- <tr>
+                  <td></td>
+                  <td></td>
+
+              </tr> -->
+                </tbody>
+            </table>
+
+        </nav>
+        <article>
+            <h1>Asesoramiento civil y familiar</h1>
+            <p>
+                Asesoramiento en las relaciones patrimoniales o personales entre los individuos, tales como, asuntos vecinales: derramas, impagos, obras a raíz de la convivencia entre vecinos. Contratación: Elaboración o revisión de contratos de alquiler, revisión de
+                contratos de compraventa de inmuebles, u otros productos, reclamación de cantidades, refinanciación de deudas. O en materia de familia, información sobre las alternativas en los supuestos de separación, divorcio, tratamiento del testamento
+                y herencias. Es decir, la asesoría en áreas del derecho de las personas, derecho de familia, derecho de bienes, derechos de las obligaciones y de los contratos, derecho de sucesiones, etc. (contacte con nosotros)
+            </p>
+        </article>
+    </div>
+    <script>
+        /* When the user clicks on the button,
+          toggle between hiding and showing the dropdown content */
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
