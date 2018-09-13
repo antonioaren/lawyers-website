@@ -38,7 +38,7 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(0, 80rem) minmax(1em, 1fr);
+    grid-template-columns: minmax(1em, 1fr) minmax(0, 90rem) minmax(1em, 1fr);
 }
 
 .grid--fullview {
