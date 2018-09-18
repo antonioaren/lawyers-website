@@ -80,6 +80,23 @@ p {
     background-color: #770431;
 }
 
+.btn--dropdown {
+    background: white;
+    border: 1px solid #520321;
+    color: #770431;
+    text-decoration: none;
+    padding: 20% 40%;
+}
+
+.btn--dropdown:hover {
+    text-decoration: none;
+    color: #520321;
+}
+
+.btn--dropdown_list {
+    padding: 20% 70%;
+}
+
 
 /* Seccion quienes somos */
 
