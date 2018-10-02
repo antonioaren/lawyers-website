@@ -122,3 +122,18 @@ p {
 .contacto--info>img {
     max-width: 40%;
 }
+
+
+/* Footer */
+
+.subgrid--footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+}
+
+.style--footer {
+    background-color: gray;
+}
